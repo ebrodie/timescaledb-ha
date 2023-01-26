@@ -7,7 +7,7 @@ This directory contains everything that allows us to create a Docker image with 
 - pgBackRest
 - scripts to make it all work in a Kubernetes Context
 
-# This image is a copy of https://github.com/timescale/timescaledb-docker-ha.git tag: pg11.10-ts1.7.4-p3 rebuilt in order to pull in the most recent version of Patroni to resolve the issue found [here](https://github.com/timescale/helm-charts/issues/374) without having to upgrade major versions of PostgreSql (from v11) or Timescale (from v1).
+# This image is a copy of https://github.com/timescale/timescaledb-docker-ha.git tag: pg11.10-ts1.7.4-p3 rebuilt in order to pull in the most recent version of Patroni to resolve the [Service Account Token Expiration](https://github.com/timescale/helm-charts/issues/374) without having to upgrade major versions of PostgreSql (from v11) or Timescale (from v1).
 
 # Build images
 
